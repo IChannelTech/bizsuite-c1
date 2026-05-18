@@ -239,6 +239,42 @@ p {
   letter-spacing: 1px;
 }
 
+.hero .product-window {
+  display: none;
+}
+
+.hero-product {
+  position: relative;
+  width: min(1280px, calc(100vw - 44px));
+  margin: 0 50%;
+  transform: translateX(-50%);
+}
+
+.hero-product::before {
+  content: "";
+  position: absolute;
+  inset: 11% 4% -6%;
+  z-index: -1;
+  border-radius: 28px;
+  background: radial-gradient(circle at 50% 30%, rgba(0, 31, 63, 0.16), transparent 58%);
+  filter: blur(20px);
+}
+
+.hero-image-frame {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(8, 27, 55, 0.12);
+  border-radius: 14px;
+  background: #061a33;
+  box-shadow: 0 36px 90px rgba(14, 20, 34, 0.18);
+}
+
+.hero-image-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .product-window {
   overflow: hidden;
   border-radius: var(--radius);
@@ -996,6 +1032,27 @@ details p {
   .window-tabs {
     overflow-x: auto;
     padding: 14px 14px 0;
+  }
+
+  .hero-product {
+    width: min(calc(100vw - 28px), 520px);
+    margin: 0 auto;
+    transform: none;
+  }
+
+  .hero-image-frame {
+    aspect-ratio: 0.92;
+    border-radius: 10px;
+  }
+
+  .hero-image-frame img {
+    position: absolute;
+    inset: 0 auto auto 0;
+    width: auto;
+    max-width: none;
+    height: 100%;
+    object-fit: cover;
+    object-position: left top;
   }
 
   .dashboard-grid {
