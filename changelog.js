@@ -91,4 +91,6 @@ if (listRoot && panelRoot && summaryRoot) {
     : changelogEntries[0].version;
   const activeExists = changelogEntries.some((entry) => entry.version === initialVersion);
   setActiveVersion(activeExists ? initialVersion : changelogEntries[0].version);
+
+  window.applyBizSuiteReveal?.(document);
 }

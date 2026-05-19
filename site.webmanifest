@@ -1,0 +1,23 @@
+{
+  "name": "BizSuite",
+  "short_name": "BizSuite",
+  "description": "Cloud business management system for SMEs covering sales, POS, inventory, accounting, CRM, HR, manufacturing, repair, and ecommerce workflows.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f6f4",
+  "theme_color": "#162124",
+  "icons": [
+    {
+      "src": "/assets/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
