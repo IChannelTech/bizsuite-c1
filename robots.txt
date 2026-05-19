@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bizsuite.com.ng/sitemap.xml
+Sitemap: https://bizsuitebms.com/sitemap.xml

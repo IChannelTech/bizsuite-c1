@@ -120,7 +120,7 @@ if (pricingSection) {
         price: "&#8358;15,000.00",
         cycle: "/ month",
         caption: "Unlimited customers, unlimited invoices, essential workflows.",
-        cta: "https://app.bizsuite.com.ng/business/register?package=4",
+        cta: "https://app.bizsuitebms.com/business/register?package=4",
         features: [
           "2 Business Locations",
           "3 Users",
@@ -133,7 +133,7 @@ if (pricingSection) {
         price: "&#8358;180,000.00",
         cycle: "/ year",
         caption: "Annual billing for the same core setup and operational essentials.",
-        cta: "https://app.bizsuite.com.ng/business/register?package=7",
+        cta: "https://app.bizsuitebms.com/business/register?package=7",
         features: [
           "2 Business Locations",
           "3 Users",
@@ -152,7 +152,7 @@ if (pricingSection) {
         price: "&#8358;25,000.00",
         cycle: "/ month",
         caption: "Unlimited customers, unlimited invoices, accounting and repair support.",
-        cta: "https://app.bizsuite.com.ng/business/register?package=5",
+        cta: "https://app.bizsuitebms.com/business/register?package=5",
         features: [
           "3 Business Locations",
           "3 Users",
@@ -167,7 +167,7 @@ if (pricingSection) {
         price: "&#8358;300,000.00",
         cycle: "/ year",
         caption: "Annual billing for growing teams that need stronger finance and service flows.",
-        cta: "https://app.bizsuite.com.ng/business/register?package=8",
+        cta: "https://app.bizsuitebms.com/business/register?package=8",
         features: [
           "3 Business Locations",
           "3 Users",
@@ -188,7 +188,7 @@ if (pricingSection) {
         price: "&#8358;44,000.00",
         cycle: "/ month",
         caption: "Unlimited customers, unlimited invoices, CRM and commerce-ready operations.",
-        cta: "https://app.bizsuite.com.ng/business/register?package=6",
+        cta: "https://app.bizsuitebms.com/business/register?package=6",
         features: [
           "4 Business Locations",
           "10 Users",
@@ -205,7 +205,7 @@ if (pricingSection) {
         price: "&#8358;528,000.00",
         cycle: "/ year",
         caption: "Annual billing for multi-team businesses with added connector capability.",
-        cta: "https://app.bizsuite.com.ng/business/register?package=9",
+        cta: "https://app.bizsuitebms.com/business/register?package=9",
         features: [
           "4 Business Locations",
           "10 Users",
@@ -251,7 +251,7 @@ if (pricingSection) {
         <p>${billing === "monthly"
           ? "Monthly view shows the live one-month plan pricing from BizSuite. Switch to yearly for annual billing."
           : "Yearly view shows the live one-year plan pricing from BizSuite. Explore the full pricing catalog for more package options."}</p>
-        <a class="button button-soft" href="https://app.bizsuite.com.ng/pricing">View Other BizSuite Plans</a>
+        <a class="button button-soft" href="https://app.bizsuitebms.com/pricing">View Other BizSuite Plans</a>
       `;
     }
 
