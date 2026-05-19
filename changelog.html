@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BizSuite Changelog</title>
+    <meta
+      name="description"
+      content="Track BizSuite release notes, fixes, and feature updates in one dedicated changelog page."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-nav>
+      <a class="brand" href="index.html#top" aria-label="BizSuite home">
+        <img src="assets/bizsuite-logo-dark.svg" alt="BizSuite" />
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#modules">Modules</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#faq">FAQs</a>
+        <a href="changelog.html" aria-current="page">Changelog</a>
+      </nav>
+      <a class="header-cta" href="https://app.bizsuite.com.ng/">Get Started</a>
+    </header>
+
+    <main id="top">
+      <section class="changelog-hero section-shell">
+        <div class="changelog-hero-copy">
+          <p class="eyebrow">Release history</p>
+          <h1>Changelog</h1>
+          <p>
+            A dedicated release page for product updates, bug fixes, and incremental improvements,
+            mirrored from the current BizSuite website and structured for future additions.
+          </p>
+        </div>
+        <div class="changelog-hero-meta">
+          <div>
+            <span>Source</span>
+            <strong>bizsuite.com.ng/#changelogs</strong>
+          </div>
+          <div>
+            <span>Format</span>
+            <strong>Version-led, extendable data model</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="changelog-shell section-shell">
+        <aside class="changelog-nav">
+          <div class="changelog-nav-head">
+            <p class="eyebrow">Versions</p>
+            <p data-changelog-summary></p>
+          </div>
+          <div class="changelog-nav-list" data-changelog-list></div>
+        </aside>
+
+        <div class="changelog-panels" data-changelog-panels></div>
+      </section>
+
+      <section class="cta-band section-shell" id="contact">
+        <h2>Need help rolling out the latest update?</h2>
+        <p>
+          BizSuite support can help with onboarding, migration, configuration, and operational questions
+          after a new release.
+        </p>
+        <div class="cta-actions">
+          <a class="button button-light" href="https://wa.me/2347031010500">Contact Support</a>
+          <a class="button button-ghost" href="mailto:hello@ohrsystems.ng">hello@ohrsystems.ng</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid section-shell">
+        <a class="brand" href="index.html#top" aria-label="BizSuite home">
+          <img src="assets/bizsuite-logo-dark.svg" alt="BizSuite" />
+        </a>
+        <div>
+          <h3>Resources</h3>
+          <a href="changelog.html">Changelog</a>
+          <a href="index.html#faq">FAQs</a>
+          <a href="index.html#pricing">Pricing</a>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <a href="https://ohrsystems.ng/">About us</a>
+          <a href="https://wa.me/2347031010500">Contact us</a>
+          <a href="https://app.bizsuite.com.ng/">Signup Login</a>
+        </div>
+        <p>&copy; OHR Systems. BizSuite support and consultancy services are managed by IChannel Technologies.</p>
+      </div>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+    <script type="module" src="changelog.js"></script>
+  </body>
+</html>

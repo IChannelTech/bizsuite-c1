@@ -13,8 +13,7 @@
   <body>
     <header class="site-header" data-nav>
       <a class="brand" href="#top" aria-label="BizSuite home">
-        <span class="brand-mark">B</span>
-        <span>BizSuite</span>
+        <img src="assets/bizsuite-logo-dark.svg" alt="BizSuite" />
       </a>
       <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
         <span></span>
@@ -25,6 +24,7 @@
         <a href="#modules">Modules</a>
         <a href="#pricing">Pricing</a>
         <a href="#faq">FAQs</a>
+        <a href="changelog.html">Changelog</a>
         <a href="#contact">Contact</a>
       </nav>
       <a class="header-cta" href="https://app.bizsuite.com.ng/">Get Started</a>
@@ -33,6 +33,9 @@
     <main id="top">
       <section class="hero section-shell">
         <div class="hero-copy">
+          <div class="hero-brandline">
+            <span>Cloud BMS for growing SMEs</span>
+          </div>
           <h1>Your all-in-one complete integrated Business Management System for SMEs</h1>
           <p>
             Accelerate your business with simple cloud software that brings sales, inventory, finance,
@@ -188,40 +191,145 @@
       </section>
 
       <section class="modules section-shell" id="modules">
-        <div class="section-title">
-          <h2>Optimized business modules for SMEs</h2>
-          <p>Extend BizSuite with adaptive modules that fit how your business sells, serves, repairs, manufactures, and grows.</p>
+        <div class="modules-head">
+          <div>
+            <p class="eyebrow">Module ecosystem</p>
+            <h2>Optimized business modules for SMEs</h2>
+          </div>
+          <p>
+            Extend BizSuite with adaptive modules that fit how your business sells, serves,
+            repairs, manufactures, hosts, accounts, and grows.
+          </p>
         </div>
         <div class="module-grid">
-          <article>
-            <span>01</span>
+          <article class="module-card module-card-featured">
+            <div class="module-card-top">
+              <span>01</span>
+              <svg class="module-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M3 20V9l5 3V9l5 3V7h3l2 5h3v8H3Z" />
+                <path d="M7 20v-4h3v4" />
+                <path d="M14 16h3" />
+              </svg>
+            </div>
             <h3>Manufacturing Module</h3>
+            <strong>Production</strong>
             <p>Manage recipes, raw materials, production steps, final products, and quality-focused costing.</p>
           </article>
-          <article>
-            <span>02</span>
+          <article class="module-card">
+            <div class="module-card-top">
+              <span>02</span>
+              <svg class="module-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M6 3h12v18l-2-1.2-2 1.2-2-1.2-2 1.2-2-1.2L6 21V3Z" />
+                <path d="M9 8h6" />
+                <path d="M9 12h6" />
+                <path d="M9 16h3" />
+              </svg>
+            </div>
             <h3>Advanced POS</h3>
+            <strong>Sales</strong>
             <p>Use barcode scanning, multiple payment options, credit sales, discounts, and quick quotations.</p>
           </article>
-          <article>
-            <span>03</span>
+          <article class="module-card">
+            <div class="module-card-top">
+              <span>03</span>
+              <svg class="module-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="m14.5 5.5 4 4" />
+                <path d="M16 4l4 4-9.5 9.5-4.2 1.2 1.2-4.2L16 4Z" />
+                <path d="m5 19 3 3" />
+              </svg>
+            </div>
             <h3>Repair Management</h3>
+            <strong>Service</strong>
             <p>Track jobs for cellphones, computers, printers, electronics, instruments, and similar devices.</p>
           </article>
-          <article>
-            <span>04</span>
+          <article class="module-card">
+            <div class="module-card-top">
+              <span>04</span>
+              <svg class="module-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M4 4h6v6H4V4Z" />
+                <path d="M14 4h6v6h-6V4Z" />
+                <path d="M4 14h6v6H4v-6Z" />
+                <path d="M14 14h2v2h-2v-2Z" />
+                <path d="M18 14h2v6h-4v-2h2v-4Z" />
+              </svg>
+            </div>
             <h3>Digital Product Catalog</h3>
+            <strong>Catalog</strong>
             <p>Generate stylish QR menus and contactless product catalogs for posters, stickers, and counters.</p>
           </article>
-          <article>
-            <span>05</span>
+          <article class="module-card">
+            <div class="module-card-top">
+              <span>05</span>
+              <svg class="module-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M8 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
+                <path d="M2.5 21a5.5 5.5 0 0 1 11 0" />
+                <path d="M16 6h5" />
+                <path d="M16 10h4" />
+                <path d="M16 14h5" />
+              </svg>
+            </div>
             <h3>CRM & Notifications</h3>
+            <strong>Customer care</strong>
             <p>Understand customers, create professional estimates and invoices, then notify by SMS or email.</p>
           </article>
-          <article>
-            <span>06</span>
+          <article class="module-card">
+            <div class="module-card-top">
+              <span>06</span>
+              <svg class="module-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M9 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                <path d="M3 21a6 6 0 0 1 12 0" />
+                <path d="M17 11a2.5 2.5 0 1 0 0-5" />
+                <path d="M18 21h3a5 5 0 0 0-4-4.9" />
+              </svg>
+            </div>
             <h3>HR & Business Essentials</h3>
+            <strong>Team</strong>
             <p>Manage employees, attendance, leave, payroll, internal communication, and shared documents.</p>
+          </article>
+          <article class="module-card">
+            <div class="module-card-top">
+              <span>07</span>
+              <svg class="module-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M4 4h16v16H4V4Z" />
+                <path d="M8 8h8" />
+                <path d="M8 12h2" />
+                <path d="M14 12h2" />
+                <path d="M8 16h2" />
+                <path d="M14 16h2" />
+              </svg>
+            </div>
+            <h3>Full Accounting Module</h3>
+            <strong>Finance</strong>
+            <p>Handle ledgers, expenses, account balances, financial statements, taxes, and business reporting.</p>
+          </article>
+          <article class="module-card">
+            <div class="module-card-top">
+              <span>08</span>
+              <svg class="module-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 5h2l1.4 9.2A2 2 0 0 0 10.4 16H18a2 2 0 0 0 1.9-1.4L21 9H8" />
+                <path d="M10 21a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+                <path d="M18 21a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+              </svg>
+            </div>
+            <h3>WooCommerce Module</h3>
+            <strong>E-commerce</strong>
+            <p>Connect online store activity with stock, sales, customer records, invoices, and daily operations.</p>
+          </article>
+          <article class="module-card">
+            <div class="module-card-top">
+              <span>09</span>
+              <svg class="module-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 21V4h14v17" />
+                <path d="M9 21v-5h6v5" />
+                <path d="M9 8h1" />
+                <path d="M14 8h1" />
+                <path d="M9 12h1" />
+                <path d="M14 12h1" />
+              </svg>
+            </div>
+            <h3>Hotel Management Module</h3>
+            <strong>Hospitality</strong>
+            <p>Manage reservations, rooms, guests, billing, housekeeping workflows, and hospitality operations.</p>
           </article>
         </div>
       </section>
@@ -290,23 +398,43 @@
       </section>
 
       <section class="pricing section-shell" id="pricing">
-        <div class="section-title">
-          <h2>Simple pricing, instant sign up</h2>
-          <p>Affordable and transparent pricing that suits small and scaling enterprises.</p>
+        <div class="pricing-head">
+          <div class="pricing-copy">
+            <p class="eyebrow">Pricing plans</p>
+            <h2>Choose the BizSuite Core plan that matches your operating stage</h2>
+            <p>
+              Toggle between monthly and yearly billing for the three core plans pulled from the live
+              BizSuite pricing catalog.
+            </p>
+          </div>
+          <div class="pricing-controls" aria-label="Billing period switch">
+            <button class="pricing-toggle is-active" type="button" data-pricing-toggle="monthly" aria-pressed="true">
+              Monthly
+            </button>
+            <button class="pricing-toggle" type="button" data-pricing-toggle="yearly" aria-pressed="false">
+              Yearly
+            </button>
+          </div>
+        </div>
+        <div class="pricing-proof" aria-label="Pricing highlights">
+          <span>No setup friction</span>
+          <span>Unlimited invoices</span>
+          <span>Cloud updates included</span>
         </div>
         <div class="pricing-grid">
-          <article>
+          <article class="pricing-card" data-plan data-monthly-price="&#8358;15,000.00" data-yearly-price="&#8358;180,000.00" data-monthly-cycle="/ month" data-yearly-cycle="/ year" data-monthly-caption="Unlimited customers, unlimited invoices, essential workflows." data-yearly-caption="Annual billing for the same core setup and operational essentials." data-monthly-cta="https://app.bizsuite.com.ng/business/register?package=4" data-yearly-cta="https://app.bizsuite.com.ng/business/register?package=7">
+            <p class="plan-kicker">For lean teams</p>
             <h3>BizSuite Core Basic</h3>
-            <p>For individuals and small businesses trying BizSuite for an unlimited period.</p>
+            <p>For owners and compact operations who want dependable daily business control.</p>
             <strong>₦15,000 <span>/ Month</span></strong>
-            <ul>
-              <li>3 business locations</li>
-              <li>3 system users</li>
-              <li>100 products</li>
-              <li>Unlimited invoices and customers</li>
-              <li>Business Essential & HR Module</li>
+            <ul data-feature-list data-monthly-features="2 Business Locations|3 Users|Unlimited Products|Unlimited Invoices|Essentials Module" data-yearly-features="2 Business Locations|3 Users|Unlimited Products|Unlimited Invoices|Essentials Module">
+              <li>2 Business Locations</li>
+              <li>3 Users</li>
+              <li>Unlimited Products</li>
+              <li>Unlimited Invoices</li>
+              <li>Essentials Module</li>
             </ul>
-            <a class="button button-outline" href="https://app.bizsuite.com.ng/">Get Started</a>
+            <a class="button button-outline" data-cta href="https://app.bizsuite.com.ng/business/register?package=4">Register &amp; Subscribe</a>
           </article>
           <article class="featured-plan">
             <h3>BizSuite Core Plus</h3>
@@ -341,6 +469,7 @@
       <section class="faq section-shell" id="faq">
         <div class="section-title">
           <h2>Questions SMEs ask before moving to BizSuite</h2>
+          <p>Answers to the most common questions from the current BizSuite website, adapted for this page.</p>
         </div>
         <div class="faq-list">
           <details open>
@@ -351,11 +480,29 @@
             </p>
           </details>
           <details>
+            <summary>Do I have to pay for updates to the latest version?</summary>
+            <p>
+              No. Updates are available to everyone. Because BizSuite is a SaaS solution, subscribers
+              receive the same updates at the same time.
+            </p>
+          </details>
+          <details>
             <summary>What hardware does it support?</summary>
             <p>
               BizSuite supports internet-enabled devices with modern browsers, barcode scanners, thermal
               printers with ESC/POS commands, and label printers.
             </p>
+          </details>
+          <details>
+            <summary>Does it support tax management?</summary>
+            <p>
+              Yes. Taxes are customizable, including VAT, GST, and grouped tax structures. You can apply
+              them while creating purchases and sales, then review the related tax reports for a period.
+            </p>
+          </details>
+          <details>
+            <summary>Is BizSuite available in my country?</summary>
+            <p>Yes. BizSuite is accessible in most countries.</p>
           </details>
           <details>
             <summary>How safe is BizSuite?</summary>
@@ -365,8 +512,15 @@
             </p>
           </details>
           <details>
-            <summary>What payment methods are accepted?</summary>
+            <summary>What payment methods do you accept?</summary>
             <p>Online payment via Flutterwave and offline bank transfer are accepted.</p>
+          </details>
+          <details>
+            <summary>I have a technical problem, who do I email?</summary>
+            <p>
+              Contact <a href="mailto:hello@ohrsystems.ng">hello@ohrsystems.ng</a> or chat directly with
+              a representative on <a href="https://wa.me/2347031010500">WhatsApp</a>.
+            </p>
           </details>
         </div>
       </section>
@@ -387,11 +541,11 @@
     <footer class="site-footer">
       <div class="footer-grid section-shell">
         <a class="brand" href="#top" aria-label="BizSuite home">
-          <span class="brand-mark">B</span>
-          <span>BizSuite</span>
+          <img src="assets/bizsuite-logo-dark.svg" alt="BizSuite" />
         </a>
         <div>
           <h3>Resources</h3>
+          <a href="changelog.html">Changelog</a>
           <a href="#faq">FAQs</a>
           <a href="#modules">Modules</a>
           <a href="#pricing">Pricing</a>
@@ -406,6 +560,6 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
   </body>
 </html>
