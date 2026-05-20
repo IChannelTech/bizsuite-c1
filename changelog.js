@@ -3,7 +3,7 @@ import { changelogEntries } from "./changelog-data.js";
 const listRoot = document.querySelector("[data-changelog-list]");
 const panelRoot = document.querySelector("[data-changelog-panels]");
 const summaryRoot = document.querySelector("[data-changelog-summary]");
-const emptyState = "No notes published for this version on the current BizSuite website.";
+const emptyState = "No release notes were provided for this version.";
 
 if (listRoot && panelRoot && summaryRoot) {
   const sectionOrder = ["added", "updated", "fixed", "notes"];
@@ -16,7 +16,7 @@ if (listRoot && panelRoot && summaryRoot) {
 
   listRoot.innerHTML = "";
   panelRoot.innerHTML = "";
-  summaryRoot.textContent = `${changelogEntries.length} releases mirrored from the live BizSuite changelog.`;
+  summaryRoot.textContent = `${changelogEntries.length} releases captured from BizSuite changelog sources.`;
 
   changelogEntries.forEach((entry, index) => {
     const itemButton = document.createElement("button");
