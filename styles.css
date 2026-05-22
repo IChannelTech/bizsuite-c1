@@ -952,6 +952,15 @@ small,
   padding: 30px;
 }
 
+.module-card-manufacturing {
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(180deg, rgba(8, 19, 27, 0.28), rgba(8, 19, 27, 0.76)),
+    linear-gradient(135deg, rgba(0, 0, 0, 0.06), rgba(4, 15, 22, 0.14)),
+    url("./assets/manufacturing.jpg") center/cover no-repeat;
+}
+
 .module-card-featured::before {
   content: "";
   position: absolute;
@@ -963,6 +972,16 @@ small,
     linear-gradient(135deg, var(--accent), var(--accent-2) 52%, var(--yellow));
   opacity: 0.16;
   transform: rotate(12deg);
+}
+
+.module-card-manufacturing::before {
+  inset: auto auto 18px 18px;
+  width: 180px;
+  height: 180px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(0, 174, 234, 0.3), rgba(0, 174, 234, 0));
+  opacity: 1;
+  transform: none;
 }
 
 .module-card-top {
@@ -1025,6 +1044,21 @@ small,
   letter-spacing: -0.04em;
 }
 
+.module-card-manufacturing .module-card-top span,
+.module-card-manufacturing h3 {
+  color: #fff;
+}
+
+.module-card-manufacturing .module-card-top {
+  margin-bottom: 0;
+}
+
+.module-card-manufacturing .module-card-copy {
+  margin-top: auto;
+  margin-bottom: 22px;
+  max-width: 440px;
+}
+
 .module-card strong {
   display: inline-flex;
   width: fit-content;
@@ -1037,6 +1071,13 @@ small,
   line-height: 1;
 }
 
+.module-card-manufacturing strong {
+  background: rgba(255, 255, 255, 0.16);
+  color: #f4fbff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(6px);
+}
+
 .module-grid p {
   margin-bottom: 0;
   font-size: 15px;
@@ -1045,6 +1086,10 @@ small,
 .module-card-featured p {
   max-width: 470px;
   font-size: 16px;
+}
+
+.module-card-manufacturing p {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .module-flow {
@@ -1066,6 +1111,25 @@ small,
   font-size: 12px;
   font-weight: 820;
   text-transform: uppercase;
+}
+
+.module-card-manufacturing .module-icon {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.04)),
+    rgba(7, 20, 28, 0.58);
+  color: #fff;
+  opacity: 0.92;
+}
+
+.module-card-manufacturing .module-flow span {
+  border-color: rgba(255, 255, 255, 0.16);
+  background: rgba(9, 21, 30, 0.52);
+  color: #fff;
+  backdrop-filter: blur(8px);
+}
+
+.module-card-manufacturing .module-flow {
+  margin-top: 0;
 }
 
 .dark-band {
